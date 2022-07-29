@@ -1,0 +1,6 @@
+import {AffixProps} from "antd";
+import axios from "axios";
+
+export default axios.create({
+    baseURL:"https://expensetracker-be.herokuapp.com"
+})
